@@ -168,7 +168,8 @@ function getListOfChaptersToEdit(content, json) {
   else if (chapterList.includes(lastChapter)) {
     return chapterList.slice(chapterList.indexOf(lastChapter) + 1);
   }
-  return null;
+  console.warn(`Warning: last-completed-chapter "${lastChapter}" not found in JSON. Adding all chapters.`);
+  return chapterList;
 }
 
 function isHeadingPresent(content, heading) {
