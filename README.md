@@ -18,7 +18,7 @@ This project automates the tedious process of manually copying highlights from K
 
 ## Example output
 
-![Example Output](images/book-structure-after-sync.png)
+![Example Output](images/KOReader-Obsidian-Highlight-Sync-Demo.gif)
 
 ## 📋 Requirements
 
