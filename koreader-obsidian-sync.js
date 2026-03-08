@@ -118,7 +118,7 @@ function addImportantHighlights(content, json) {
     if (chaptersToEdit.includes(entry.chapter) && entry.color == importantHighlightColor) {
       chapterDict[entry.chapter] += "\nPage " + entry.pageno + ": \n" + entry.text + "\n";
       if (entry.note) {
-        chapterDict[entry.chapter] += "My notes: " + entry.note + "\n";
+        chapterDict[entry.chapter] += "My notes: **" + entry.note + "**\n";
       }
     }
   }
